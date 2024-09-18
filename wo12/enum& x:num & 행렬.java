@@ -2,17 +2,6 @@ import java.util.Scanner;
 
 enum Flowers {COSMOS, SUMFLOWER, ROSE, TULIP}
 public class woex {
-	public static void Foreach1() {
-		int[] num= {10,20,30,40,50};
-		int sum=0;
-		for(int k:num) { 
-			System.out.println(k);
-			sum+=k;
-		}
-		System.out.print("합= "+sum);
-	}
-	
-
 	public static void Foreach2() {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("원하는 상수 값을 선택해주세요: ");
@@ -33,10 +22,18 @@ public class woex {
 		case TULIP:
 			System.out.println("튜율립");
 			break;
-			
 		}
-		
 		sc.close();
+	}
+	
+	public static void Foreach1() {
+		int[] num= {10,20,30,40,50};
+		int sum=0;
+		for(int k:num) { 
+			System.out.println(k);
+			sum+=k;
+		}
+		System.out.print("합= "+sum);
 	}
 	
 	public static void DouArr() {
@@ -69,32 +66,6 @@ public class woex {
 		System.out.printf("num 배열 합계: ", sum);
 	}
 
-	public static void DouArr3() {
-		String lang[][]= {{"Python","Java"},
-				{"THML5"},
-				{"C#", "JSP", "C++", "Android"}};
-		for(int i=0; i<lang.length; i++) {
-			for(int j=0;j<lang[i].length; j++) {
-				System.out.print(lang[i][j]+"\t");
-			}System.out.println();
-		}
-	}
-	
-	public static void DouArr4() {
-		int[][] num= new int[4][];
-		num[0]=new int[4];
-		num[1]=new int[2];
-		num[2]=new int[3];
-		num[3]=new int[1];
-		int cnt=0;
-			for(int i=0; i<num.length; i++) {
-			for(int j=0;j<num[i].length; j++) {
-				 num[i][j]=++cnt;
-				System.out.printf("%-3d", num[i][j]);
-			}System.out.println();
-		}
-	}
-
 	public static void main(String[] args) {
 //		Foreach1();
 //		Foreach2();
@@ -103,5 +74,4 @@ public class woex {
 //		DouArr3();
 //		DouArr4();
 	}
-
 }
