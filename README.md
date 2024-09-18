@@ -2,9 +2,8 @@
 자바 프로그래밍구조, 출력스트림과 변수 & 자료형과 연산자 [wo03](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo03)<br/>
 조건문 [wo04](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo04) [wo05](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo05)<br/>
 반복문 [wo06](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo06) <br/>
-wo07 wo08 없음<br/>
-함수 [wo09](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo09) [wo10](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo10) <br/>
-배열 [wo11](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo11) [wo12](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo12)<br/>
+함수 [wo09](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo09) <br/>
+배열 [wo12](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo12)<br/>
 객체지향과 자바프로그래밍, 문자 스트림과 입출력 [wo13](https://github.com/gosurim/24_1-java-java1/tree/24_1/main/wo13)<br/>
 
 ## 자바 프로그래밍2
